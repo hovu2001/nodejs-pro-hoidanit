@@ -4,7 +4,7 @@ const app = express();
 const PORT = 8080;
 
 app.get("/", (req, res)=>{
-   res.send("Hello world")
+   res.send("Hello world node mon 1")
 })
 
 app.get("/hoidanit", (req, res)=>{
